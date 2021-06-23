@@ -1,0 +1,200 @@
+.App {
+	text-align: center;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.App-logo {
+	height: 80px;
+}
+
+input {
+	border: 1px solid  #ef000e;
+}
+.show-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.App-header {
+	background-color:  #ef000e;
+	height: 200px;
+	padding: 20px;
+	color: #222;
+}
+
+.App-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+cite {
+	font-weight: bold;
+}
+
+table {
+	align-content: center;
+	margin: auto;
+}
+
+td {
+	padding: 10px;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.cap-first-letter:first-letter {
+	text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+	border: 1px;
+}
+
+.hometext {
+	max-width: 60%;
+}
+
+.itemlink {
+	padding: 0.4rem 0.8rem;
+	background-color: white;
+	border-radius: 3px;
+	color:  #ef000e;
+	text-decoration: none !important;
+	margin: 5px;
+	border: 2px solid transparent;
+}
+
+.itemlink:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+
+li {
+	padding: 20px;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	color:  #ef000e;
+	text-decoration: none !important;
+}
+
+ul a:hover {
+	background-color: transparent;
+	color: blue;
+}
+
+ul {
+	list-style: none;
+}
+
+.title {
+	font-weight: bold;
+	color:  #ef000e;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	input {
+		font-size: 16px;
+	}
+}
+
+dt,
+dl {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+dt {
+	display: inline-block;
+}
+
+dd {
+	display: inline;
+	margin-left: 5px;
+}
+
+.Button-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.pagePrev {
+	padding: 0.4rem 0.8rem;
+	background-color:#ef000e;
+	border-radius: 3px;
+	color:  white;
+	text-decoration: none !important;
+	margin: 5px;
+	margin-right: auto;
+	border: 2px solid transparent;
+}
+
+.pagePrev:hover {
+	background-color: transparent;
+	color: #ef000e;
+	border: 2px solid#ef000e;
+}
+
+.pageNext {
+	padding: 0.4rem 0.8rem;
+	background-color:#ef000e;
+	border-radius: 3px;
+	color:  white;
+	text-decoration: none !important;
+	margin: 5px;
+	margin-left: auto;
+	border: 2px solid transparent;
+}
+
+.pageNext:hover {
+	background-color: transparent;
+	color: #ef000e;
+	border: 2px solid#ef000e;
+}
+
+.searchButton {
+	padding: 0.4rem 0.8rem;
+	background-color:#ef000e;
+	border-radius: 3px;
+	color:  white;
+	text-decoration: none !important;
+	margin: 5px;
+	margin-right: auto;
+	border: 2px solid transparent;
+}
+
+.searchButton:hover {
+	background-color: transparent;
+	color: #ef000e;
+	border: 2px solid #ef000e;
+}
+
+.searchBar {
+	padding: 0.4rem 0.8rem;
+	background-color:white;
+	border-radius: 3px;
+	color:  #ef000e;
+	margin: 5px;
+}
