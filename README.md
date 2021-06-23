@@ -1,6 +1,6 @@
 # marvel-api-project
 
-Checkout the demo [here](https://marvel-api-react.vercel.app).
+Checkout the demo <a href="https://marvel-api-react.vercel.app" target="blank">here</a>.
 
 ## Getting Started with Create React App
 
