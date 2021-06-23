@@ -82,7 +82,7 @@ const Character = (props) => {
             }
         }
         fetchData();
-    }, [props.match.params.id]);
+    }, [props.match.params.id, hash, ts]);
 
     // if loading
     if (loading) {

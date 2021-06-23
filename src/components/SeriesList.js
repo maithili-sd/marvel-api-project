@@ -100,7 +100,7 @@ const SeriesList = (props) => {
         return () => {
             setSearchTerm('');
         };
-    }, [props.match.params.page]);
+    }, [props.match.params.page, listUrl]);
 
     // fetch search data from api
     useEffect(() => {
@@ -121,7 +121,7 @@ const SeriesList = (props) => {
         if (searchTerm) {
             fetchData();
         }
-    }, [searchTerm]);
+    }, [searchTerm, listUrl]);
 
     const searchValue = async (value) => {
         setSearchTerm(value);
