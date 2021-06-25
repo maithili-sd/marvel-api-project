@@ -99,7 +99,8 @@ const CharacterList = (props) => {
         return () => {
             setSearchTerm('');
         };
-    }, [props.match.params.page, listUrl]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [props.match.params.page]);
 
     // fetch search data from api
     useEffect(() => {
@@ -120,7 +121,8 @@ const CharacterList = (props) => {
         if (searchTerm) {
             fetchData();
         }
-    }, [searchTerm, listUrl]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [searchTerm]);
 
     const searchValue = async (value) => {
         setSearchTerm(value);

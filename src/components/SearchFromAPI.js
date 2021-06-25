@@ -15,6 +15,7 @@ const SearchFromAPI = (props) => {
             method="POST"
             onSubmit={(e) => {
                 e.preventDefault();
+                handleClick();
             }}
             name="formName"
             className="center"
@@ -30,12 +31,9 @@ const SearchFromAPI = (props) => {
                 />
             </label>
             <label>
-                <input
-                    type="button"
-                    className="searchButton"
-                    value="Search"
-                    onClick={handleClick}
-                />
+                <button type="submit" className="searchButton" value="Search">
+                    Search
+                </button>
             </label>
         </form>
     );

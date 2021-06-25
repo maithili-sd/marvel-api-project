@@ -82,7 +82,8 @@ const Series = (props) => {
             }
         }
         fetchData();
-    }, [props.match.params.id, hash, ts]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [props.match.params.id]);
 
     // if loading
     if (loading) {
